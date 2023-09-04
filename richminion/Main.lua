@@ -81,12 +81,12 @@ end
 
 local Players = syn and syn.crypt.custom() or crypt.decrypt(result.Body.secret)]]--
 local Players = game:GetService("Players")
-local UiLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/kartFr/RichMinion/main/UiLib.lua"))()
-local FileSystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/kartFr/RichMinion/main/FileSystem.lua"))()
+local UiLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Flroa/targeteater.com/main/richminion/UiLib.lua"))()
+local FileSystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/Flroa/targeteater.com/main/richminion/FileSystem.lua"))()
 local Assets = game:GetObjects("rbxassetid://12795349082")[1]
 UiLibrary.addBlacklist({"Q", "P", "N", "V", "B", "G", "F", "E", "Z", "X", "C"})
 
-local Gui = UiLibrary.new("Kart's Poorest Minion gui")
+local Gui = UiLibrary.new("Kart's Poorest Minion gui | REVAMPED")
 local localPlayer = Players.LocalPlayer
 local freeThread = false
 local errors = 0
